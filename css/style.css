@@ -1,0 +1,76 @@
+body {
+  background-color: rgb(184, 241, 199);
+}
+
+.main {
+  background-color: white;
+
+  width: 400px;
+  height: 400px;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+
+  text-align: center;
+  padding: 20px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  font-family: 'Roboto', sans-serif;
+}
+
+#profileImage {
+  height: 200px;
+  width: 300px;
+
+  border-radius: 10%;
+  border: 1px solid #888;
+}
+
+.user-information {
+  position: absolute;
+  bottom: 15%;
+  left: 0;
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  padding: 20px 0;
+}
+
+.user-information div {
+  width: calc(100% / 3);
+}
+
+.details {
+  color: #888;
+}
+
+.add-button {
+  background-color: #007268;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+
+  border: 0;
+
+  font-size: 15px;
+  width: 100px;
+  height: 50px;
+
+  border-radius: 15%;
+
+  position: absolute;
+
+  top: 170px;
+  right: 110px;
+
+  transition: width 300ms, height 300ms, right 300ms, top 300ms, font-size 300ms;
+}
+
+.add-button:hover {
+  font-size: 18px;
+}
