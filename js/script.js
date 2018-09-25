@@ -10,4 +10,7 @@ function getRandomColor() {
 function setRandomColor() {
   $(".main").css("background-color", getRandomColor());
   $("body").css("background-color", getRandomColor());
+  $("body").css("color", getRandomColor());
+  $(".add-button").css("background-color", getRandomColor());
+  $(".add-button").css("color", getRandomColor());
 }
