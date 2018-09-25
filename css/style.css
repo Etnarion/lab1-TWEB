@@ -29,6 +29,30 @@ body {
   border: 1px solid #888;
 }
 
+.stats {
+  position: absolute;
+  top: 80%;
+  width: 90%;
+}
+
+.stat {
+  position: relative;
+  float: left;
+  height: 22px;
+  width: 33%;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.labStat {
+  position: relative;
+  float: left;
+  height: 22px;
+  width: 33%;
+  font-size: 20px;
+  font-weight: 300;
+}
+
 .user-information {
   position: absolute;
   bottom: 15%;
@@ -65,8 +89,8 @@ body {
 
   position: absolute;
 
-  top: 170px;
-  right: 110px;
+  top: 188px;
+  right: 69px;
 
   transition: width 300ms, height 300ms, right 300ms, top 300ms, font-size 300ms;
 }
